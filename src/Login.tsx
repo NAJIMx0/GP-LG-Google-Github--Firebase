@@ -8,7 +8,7 @@ interface User {
   photoURL: string | null;
 }
 
-function App() {
+function Login() {
   const [user, setUser] = useState<User | null>(null)
   const [loading, setLoading] = useState(false)
 
@@ -105,4 +105,4 @@ function App() {
   )
 }
 
-export default App
+export default Login
